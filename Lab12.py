@@ -1,5 +1,7 @@
 # Get input from the user
-user_input = input("Enter a message: ")
+num = int(input("Enter a number: "))
 
-# Print a message using the user input
-print("You entered:", user_input)
+# Print the multiplication table
+print(f"Multiplication Table for {num}:")
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
